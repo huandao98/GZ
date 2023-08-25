@@ -76,8 +76,76 @@
         <main class="mainContainer_theme">
                         <!-- home slider -->
             <div id="home_slider">
-                <div id="homepage_slider" class="">
-                    
+                <div id="homepage_slider" class="fade">
+                    <div>
+                        <div class="item">
+                            <div class="slide_img">
+                                <a href="#">
+                                    <picture>
+                                        <img src="images/slideshow_1.jpg">
+                                    </picture>
+                                </a>
+                            </div>
+                            <div class="content_slide">
+                                <div class="container_fluid">
+                                    <div class="slide_btn_content">
+                                        <h2>Trái cây nhiệt đới tươi</h2>
+                                        <p>Cung cấp các biến đổi sân sau rắc rối với các giải pháp nghệ thuật.</p>
+                                        <div class="button_content_box">
+                                            <a class="button_shop" href="#">Xem ngay</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="item">
+                            <div class="slide_img">
+                                <a href="#">
+                                    <picture>
+                                        <img src="images/slideshow_2.jpg">
+                                    </picture>
+                                </a>
+                            </div>
+                            <div class="content_slide">
+                                <div class="container_fluid">
+                                    <div class="slide_btn_content">
+                                        <h2>Trái cây Oganic</h2>
+                                        <p>Cung cấp các biến đổi sân sau rắc rối với các giải pháp nghệ thuật.</p>
+                                        <div class="button_content_box">
+                                            <a class="button_shop" href="#">Xem ngay</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="item">
+                            <div class="slide_img">
+                                <a href="#">
+                                    <picture>
+                                        <img src="images/slideshow_3.jpg ">
+                                    </picture>
+                                </a>
+                            </div>
+                            <div class="content_slide">
+                                <div class="container_fluid">
+                                    <div class="slide_btn_content">
+                                        <h2>Apple trái cây Oganic</h2>
+                                        <p>Cung cấp các biến đổi sân sau rắc rối với các giải pháp nghệ thuật.</p>
+                                        <div class="button_content_box">
+                                            <a class="button_shop" href="#">Xem ngay</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
 
@@ -967,5 +1035,15 @@
     <script type="text/javascript" src="jquery/jquery.min.js"></script>
     <script type="text/javascript" src="jquery/jquery.slim.min.js"></script>
     <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script type="text/javascript">
+        $('.fade').slick({
+            dots: true,
+            infinite: true,
+            speed: 500,
+            fade: true,
+            cssEase: 'linear',
+            arrows: false
+        });
+    </script>
 </body>
 </html>

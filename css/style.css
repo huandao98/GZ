@@ -867,3 +867,44 @@ p.pro_price span.pro_price_del {
 .blogPostShortdesc {
     color: #9f9f9f;
 }
+
+#homepage_slider .content_slide {
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    text-align: center;
+}
+
+#homepage_slider .content_slide .slide_btn_content h2 {
+    font-size: 60px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 4px;
+    letter-spacing: 1.2px;
+}
+
+#homepage_slider .content_slide .slide_btn_content p {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+    line-height: 1.5;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+#homepage_slider .content_slide .button_content_box a {
+    display: inline-block;
+    background: #fff;
+    color: #2a7d2e;
+    font-size: 15px;
+    padding: 15px 30px;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    transition: all 0.3s ease-in;
+}
+
+#homepage_slider .content_slide .button_content_box a.button_shop:hover {
+    background: #2a7d2e;
+    border-color: #2a7d2e;
+    color: #fff;
+}
