@@ -429,6 +429,30 @@ a:hover {
     display: inline-block;
 }
 
+.fb_iframe_widget {
+    display: inline-block;
+    position: relative;
+}
+
+.footer-static-content .fb_iframe_widget > span {
+    width: 100%!important;
+}
+
+.fb_iframe_widget span {
+    display: inline-block;
+    position: relative;
+    text-align: justify;
+}
+
+.fb_iframe_widget iframe {
+    position: absolute;
+}
+
+.footer-static-content iframe {
+    width: 100%!important;
+    position: relative!important;
+}
+
 /*footer*/
 
 #send_for_gmail {
