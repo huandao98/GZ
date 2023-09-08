@@ -1,0 +1,37 @@
+@media screen and (max-width: 1200px) {
+    .container-fluid {
+        max-width: 1500px;
+        padding: 0 15px;
+    }
+    .nav-main-menu .main-nav > ul>li>a {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .top-bar {
+        padding: 5px 0;
+        font-size: 12px;
+    }
+    .site-menu-desktop {
+        display: none;
+    }
+    .header-middle {
+        padding: 12px 0;
+    }
+    .header-wrap-icon {
+        .search {
+            display: none;
+            margin: 0;
+        }
+        .account {
+            margin: 0;
+        }
+    }
+    .main-header .flexContainer .header-mid {
+        padding: 0;
+        .wrap-logo {
+            text-align: center;
+        }
+    }
+}

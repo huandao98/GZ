@@ -13,7 +13,7 @@
 <body>
     <div class="main-body">
 <!-- header begin -->
-        <div class="main-header-height" style="min-height: 112px;">
+        <div class="main-header-height">
             <header class="main-header main-header-template-01">
                 <div class="top-bar top-bar-template-header-01">
                     <div class="container-fluid">
@@ -25,6 +25,14 @@
                 <div class="header-middle">
                     <div class="container-fluid">
                         <div class="flexContainer flexAlignCenter rowFlexMargin">
+                            <div class="header-menu site-menu-mobile">
+                                <div class="site-menu hamburger-menu">
+                                    <span class="bar"></span>
+                                </div>
+                                <div class="menu-mobile">
+
+                                </div>
+                            </div>
                             <div class="header-logo header-mid">
                                 <div class="wrap-logo">
                                     <h1>
@@ -32,7 +40,7 @@
                                     </h1>
                                 </div>
                             </div>
-                            <div class="header-menu menu-desktop">
+                            <div class="header-menu site-menu-desktop">
                                 <div class="nav-main-menu">
                                     <nav class="main-nav text-center">
                                         <ul class="level0 clearfix">
@@ -1071,6 +1079,27 @@
             fade: true,
             cssEase: 'linear',
             arrows: true
+        });
+    </script>
+    <script>
+        jQuery(document).ready(function ($) {
+            var open = false;
+            var openSidebar = function(){
+                $('.site-menu').addClass('active');
+                $('.menu-mobile').addClass('active');
+                open = true; //This is the new part!
+            }
+            var closeSidebar = function() {
+                $('.site-menu').removeClass('active');
+                $('.menu-mobile').removeClass('active');
+                open = false;
+            }
+
+            $('.site-menu-mobile').click( function(event) {
+                event.stopPropagation();
+                var toggle = open ? closeSidebar : openSidebar;
+                toggle();
+            });
         });
     </script>
 </body>

@@ -41,7 +41,64 @@
     }
 }
 
-.menu-desktop {
+.hamburger-menu {
+    .bar {
+        position: relative;
+        top: 13px;
+        width: 22px;
+        height: 2px;
+        display: block;
+        transition: all 300ms ease-in-out;
+        background: #2e2d2d;
+        &:before {
+            content: "";
+            position: absolute;
+            right: 0;
+            bottom: 8px;
+            width: 22px;
+            height: 2px;
+            background: #2e2d2d;
+            transition: all 300ms ease-in-out;
+        }
+        &:after {
+            content: "";
+            position: absolute;
+            right: 0;
+            top: 8px;
+            width: 22px;
+            height: 2px;
+            background: #2e2d2d;
+            transition: all 300ms ease-in-out;
+        }
+    }
+}
+
+.hamburger-menu.active {
+    .bar {
+        background: transparent;
+        &:before {
+            transform: rotate(45deg);
+            position: absolute;
+            top: 0;
+        }
+        &:after {
+            transform: rotate(-45deg);
+            position: absolute;
+            top: 0;
+        }
+    }
+}
+
+.site-menu {
+	position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    height: 25px;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.site-menu-desktop {
     position: relative;
 }
 
