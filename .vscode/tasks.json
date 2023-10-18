@@ -6,7 +6,12 @@
         {
             "label": "Run sass",
             "type": "shell",
-            "command": "sass sass/style.scss sass/css/style.css --watch"
+            "command": "sass sass/style.scss sass/css/style.css --watch",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
         }
     ]
 }

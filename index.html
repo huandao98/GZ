@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>GreenZone</title>
     <link rel="stylesheet" href="fonts/quicksand/css/Quicksand_300,400,500,700.css">
     <link rel="stylesheet" href="fonts/awesome/css/all.min.css">
@@ -30,7 +31,20 @@
                                     <span class="bar"></span>
                                 </div>
                                 <div class="menu-mobile">
-
+                                    <span class="box-triangle">
+                                        <svg viewBox="0 0 20 9">
+                                            <path d="M.47108938 9c.2694725-.26871321.57077721-.56867841.90388257-.89986354C3.12384116 6.36134886 5.74788116 3.76338565 9.2467995.30653888c.4145057-.4095171 1.0844277-.40860098 1.4977971.00205122L19.4935156 9H.47108938z" fill="#ffffff"></path>
+                                        </svg>
+                                    </span>
+                                    <div class="site-nav-container">
+                                        <div class="menu-mobile-content">
+                                            <div id="mp-menu" class="mp-menu mp-cover">
+                                                <div class="mp-level">
+                                                    <div class="mplus-menu"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="header-logo header-mid">
@@ -136,6 +150,8 @@
                             <div class="slide-img">
                                 <a href="#">
                                     <picture>
+                                        <source media="(max-width: 767px)" srcset="images/slideshow-1-mb.jpg">
+                                        <source media="(min-width: 768px)" srcset="images/slideshow-1.jpg">
                                         <img src="images/slideshow-1.jpg">
                                     </picture>
                                 </a>
@@ -159,6 +175,8 @@
                             <div class="slide-img">
                                 <a href="#">
                                     <picture>
+                                        <source media="(max-width: 767px)" srcset="images/slideshow-2-mb.jpg">
+                                        <source media="(min-width: 768px)" srcset="images/slideshow-2.jpg">
                                         <img src="images/slideshow-2.jpg">
                                     </picture>
                                 </a>
@@ -182,6 +200,8 @@
                             <div class="slide-img">
                                 <a href="#">
                                     <picture>
+                                        <source media="(max-width: 767px)" srcset="images/slideshow-3-mb.jpg">
+                                        <source media="(min-width: 768px)" srcset="images/slideshow-3.jpg">
                                         <img src="images/slideshow-3.jpg ">
                                     </picture>
                                 </a>
@@ -200,6 +220,8 @@
                         </div>
                     </div>
                 </div>
+                <div class="nav"></div>
+                <div class="dots"></div>
             </div>
 
 
@@ -208,7 +230,7 @@
                 <div class="container-fluid">
                     <div class="banner-home-outer">
                         <div class="rowFlexMargin">
-                            <div class="box-service col-md-4">
+                            <div class="box-service col-md-4 col-xs-12">
                                 <div class="icon-title fade-box">
                                     <img class=" lazyloaded" src="images/banner-img-1.png"> 
                                 </div>
@@ -217,7 +239,7 @@
                                     <p class="content">Hãy chắc chắn rằng hàng rào vườn của bạn đủ chắc chắn để tránh động vật và những khu vườn xinh đẹp và hơn thế nữa.</p>	
                                 </div>
                             </div>
-                            <div class="box-service col-md-4">
+                            <div class="box-service col-md-4 col-xs-12">
                                 <div class="icon-title fade-box">
                                     <img class=" lazyloaded" src="images/banner-img-2.png"> 
                                 </div>
@@ -226,7 +248,7 @@
                                     <p class="content">Xây dựng một khu vườn tất nhiên chúng ta sẽ cần cảnh quan của khu vườn, bố trí khu vườn phù hợp với bạn nhất.</p>	
                                 </div>
                             </div>
-                            <div class="box-service col-md-4">
+                            <div class="box-service col-md-4 col-xs-12">
                                 <div class="icon-title fade-box">
                                     <img class=" lazyloaded" src="images/banner-img-3.png"> 
                                 </div>
@@ -256,12 +278,12 @@
                         <div class="row">
                             <div class="content-product-list clearfix">
                                 
-                                <div class="col-md-3 col-sm-4 pro-loop col-20">
+                                <div class="col-md-3 col-sm-4 col-xs-6 pro-loop col-20">
                                     <div class="product-block product-resize fixheight">
                                         <div class="product-img">
                                             <a href="#" class="image-resize fade-box lazyloaded">
                                                 <picture>
-                                                    <img class="img-loop mediabox-img lazyautosizes ls-is-cached lazyloaded" src="images/anhdao2-31f2518229be4095834625976fea4361.jpg" sizes="262px">
+                                                    <img class="img-loop mediabox-img lazyautosizes ls-is-cached lazyloaded" src="images/anhdao2-31f2518229be4095834625976fea4361.jpg">
                                                 </picture>
                                             </a>
                                         </div>
@@ -280,12 +302,12 @@
                                     </div>
                                 </div>
                                 
-                                <div class="col-md-3 col-sm-4 pro-loop col-20">
+                                <div class="col-md-3 col-sm-4 col-xs-6 pro-loop col-20">
                                     <div class="product-block product-resize fixheight">
                                         <div class="product-img">
                                             <a href="#" class="image-resize fade-box lazyloaded">
                                                 <picture>
-                                                    <img class="img-loop mediabox-img lazyautosizes ls-is-cached lazyloaded" src="images/dau-253f936ddc9d49128f89be235c6e9ddc.jpg" sizes="262px">
+                                                    <img class="img-loop mediabox-img lazyautosizes ls-is-cached lazyloaded" src="images/dau-253f936ddc9d49128f89be235c6e9ddc.jpg">
                                                 </picture>
                                             </a>
                                         </div>
@@ -304,12 +326,12 @@
                                     </div>
                                 </div>
                                 
-                                <div class="col-md-3 col-sm-4 pro-loop col-20">
+                                <div class="col-md-3 col-sm-4 col-xs-6 pro-loop col-20">
                                     <div class="product-block product-resize fixheight">
                                         <div class="product-img">
                                             <a href="#" class="image-resize fade-box lazyloaded">
                                                 <picture>
-                                                    <img class="img-loop mediabox-img lazyautosizes ls-is-cached lazyloaded" src="images/dudu2-1d6ba2d096044798aab2ddea1c40432f.jpg" sizes="262px">
+                                                    <img class="img-loop mediabox-img lazyautosizes ls-is-cached lazyloaded" src="images/dudu2-1d6ba2d096044798aab2ddea1c40432f.jpg">
                                                 </picture>
                                             </a>
                                         </div>
@@ -331,12 +353,12 @@
                                     </div>
                                 </div>
                                 
-                                <div class="col-md-3 col-sm-4 pro-loop col-20">
+                                <div class="col-md-3 col-sm-4 col-xs-6 pro-loop col-20">
                                     <div class="product-block product-resize fixheight">
                                         <div class="product-img">
                                             <a href="#" class="image-resize fade-box lazyloaded">
                                                 <picture>
-                                                    <img class="img-loop mediabox-img lazyautosizes ls-is-cached lazyloaded" src="images/product-16-c3a083b76bd1449fb63cc98311097ba1.jpg" sizes="262px">
+                                                    <img class="img-loop mediabox-img lazyautosizes ls-is-cached lazyloaded" src="images/product-16-c3a083b76bd1449fb63cc98311097ba1.jpg">
                                                 </picture>
                                             </a>
                                         </div>
@@ -358,12 +380,12 @@
                                     </div>
                                 </div>
                                 
-                                <div class="col-md-3 col-sm-4 pro-loop col-20">
+                                <div class="col-md-3 col-sm-4 col-xs-6 pro-loop col-20">
                                     <div class="product-block product-resize fixheight">
                                         <div class="product-img">
                                             <a href="#" class="image-resize fade-box lazyloaded">
                                                 <picture>
-                                                    <img class="img-loop mediabox-img lazyautosizes ls-is-cached lazyloaded" src="images/product-10-8e7d1240faf648659729ae55695e49ce.jpg" sizes="262px">
+                                                    <img class="img-loop mediabox-img lazyautosizes ls-is-cached lazyloaded" src="images/product-10-8e7d1240faf648659729ae55695e49ce.jpg">
                                                 </picture>
                                             </a>
                                         </div>
@@ -385,12 +407,12 @@
                                     </div>
                                 </div>
                                 
-                                <div class="col-md-3 col-sm-4 pro-loop col-20">
+                                <div class="col-md-3 col-sm-4 col-xs-6 pro-loop col-20">
                                     <div class="product-block product-resize fixheight">
                                         <div class="product-img">
                                             <a href="#" class="image-resize fade-box lazyloaded">
                                                 <picture>
-                                                    <img class="img-loop mediabox-img lazyautosizes ls-is-cached lazyloaded" src="images/le-d56856bfa93d49c2a4d9c7868ba40fbe.jpg" sizes="262px">
+                                                    <img class="img-loop mediabox-img lazyautosizes ls-is-cached lazyloaded" src="images/le-d56856bfa93d49c2a4d9c7868ba40fbe.jpg">
                                                 </picture>
                                             </a>
                                         </div>
@@ -409,12 +431,12 @@
                                     </div>
                                 </div>
                                 
-                                <div class="col-md-3 col-sm-4 pro-loop col-20">
+                                <div class="col-md-3 col-sm-4 col-xs-6 pro-loop col-20">
                                     <div class="product-block product-resize fixheight">
                                         <div class="product-img">
                                             <a href="#" class="image-resize fade-box lazyloaded">
                                                 <picture>
-                                                    <img class="img-loop mediabox-img lazyautosizes ls-is-cached lazyloaded" src="images/mangcut2-ba77d916c5734a12b29e7fe9967721e7.jpg" sizes="262px">
+                                                    <img class="img-loop mediabox-img lazyautosizes ls-is-cached lazyloaded" src="images/mangcut2-ba77d916c5734a12b29e7fe9967721e7.jpg">
                                                 </picture>
                                             </a>
                                         </div>
@@ -433,12 +455,12 @@
                                     </div>
                                 </div>
                                 
-                                <div class="col-md-3 col-sm-4 pro-loop col-20">
+                                <div class="col-md-3 col-sm-4 col-xs-6 pro-loop col-20">
                                     <div class="product-block product-resize fixheight">
                                         <div class="product-img">
                                             <a href="#" class="image-resize fade-box lazyloaded">
                                                 <picture>
-                                                    <img class="img-loop mediabox-img lazyautosizes ls-is-cached lazyloaded" src="images/saurieng-9e88c03463434124a2d365e112db0dab.jpg" sizes="262px">
+                                                    <img class="img-loop mediabox-img lazyautosizes ls-is-cached lazyloaded" src="images/saurieng-9e88c03463434124a2d365e112db0dab.jpg">
                                                 </picture>
                                             </a>
                                         </div>
@@ -457,12 +479,12 @@
                                     </div>
                                 </div>
                                 
-                                <div class="col-md-3 col-sm-4 pro-loop col-20">
+                                <div class="col-md-3 col-sm-4 col-xs-6 pro-loop col-20">
                                     <div class="product-block product-resize fixheight">
                                         <div class="product-img">
                                             <a href="#" class="image-resize fade-box lazyloaded">
                                                 <picture>
-                                                    <img class="img-loop mediabox-img lazyautosizes ls-is-cached lazyloaded" src="images/thanglong2-04c8440fbedb4bfeb90545c11183c9fe.jpg" sizes="262px">
+                                                    <img class="img-loop mediabox-img lazyautosizes ls-is-cached lazyloaded" src="images/thanglong2-04c8440fbedb4bfeb90545c11183c9fe.jpg">
                                                 </picture>
                                             </a>
                                         </div>
@@ -481,12 +503,12 @@
                                     </div>
                                 </div>
                                 
-                                <div class="col-md-3 col-sm-4 pro-loop col-20">
+                                <div class="col-md-3 col-sm-4 col-xs-6 pro-loop col-20">
                                     <div class="product-block product-resize fixheight">
                                         <div class="product-img">
                                             <a href="#" class="image-resize fade-box lazyloaded">
                                                 <picture>
-                                                    <img class="img-loop mediabox-img lazyautosizes ls-is-cached lazyloaded" src="images/vietquat-1e9126bdc02b456fac8d70b6edc742c4.jpg" sizes="262px">
+                                                    <img class="img-loop mediabox-img lazyautosizes ls-is-cached lazyloaded" src="images/vietquat-1e9126bdc02b456fac8d70b6edc742c4.jpg">
                                                 </picture>
                                             </a>
                                         </div>
@@ -533,7 +555,7 @@
             <section id="section-collection-info" class="section section-collection-info">
                 <div class="container-fluid">
                     <div class="rowFlexMargin">
-                        <div class="col-md-3">
+                        <div class="col-12 col-sm-6 col-md-3">
                             <div class="collectionItem ">
                                 <div class="collectionImage fade-box effectFour">
                                     <a href="#" class="lazyloaded">
@@ -546,7 +568,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-12 col-sm-6 col-md-3">
                             <div class="collectionItem ">
                                 <div class="collectionImage fade-box effectFour">
                                     <a href="#" class="lazyloaded">
@@ -559,7 +581,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-12 col-sm-6 col-md-3">
                             <div class="collectionItem ">
                                 <div class="collectionImage fade-box effectFour">
                                     <a href="#" class="lazyloaded">
@@ -572,7 +594,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-12 col-sm-6 col-md-3">
                             <div class="collectionItem ">
                                 <div class="collectionImage fade-box effectFour">
                                     <a href="#" class="lazyloaded">
@@ -1020,7 +1042,7 @@
             <div class="main-footer collapse">
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-md-4">
+                        <div class="col-sm-6 col-md-4 col-lg">
                             <div class="footer-col footer-content1">
                                 <h4 class="footer-title in"> Giới thiệu</h4>
                                 <div class="footer-content">
@@ -1031,7 +1053,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-sm-6 col-md-2 col-lg">
                             <div class="footer-col footer-block">
                                 <h4 class="footer-title in"> Liên kết</h4>
                                 <div class="footer-content toggle-footer">
@@ -1045,7 +1067,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-sm-6 col-md-3 col-lg">
                             <div class="footer-col in">
                                 <h4 class="footer-title">Thông tin liên hệ</h4>
                                 <div class="footer-content footer-contact">
@@ -1058,7 +1080,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-sm-6 col-md-3 col-lg">
                             <div class="footer-col in">
                                 <h4 class="footer-title">Fanpage</h4>
                                 <div class="footer-content footer-contact footer-fanpage">
@@ -1086,16 +1108,15 @@
 <!-- footer end -->
     </div>
     <script type="text/javascript" src="jquery/jquery.min.js"></script>
-    <script type="text/javascript" src="jquery/jquery.slim.min.js"></script>
     <script type="text/javascript" src="slick/slick.min.js"></script>
     <script type="text/javascript">
         $('.fade').slick({
-            dots: true,
+            dots: false,
+            arrows: false,
             infinite: true,
             speed: 500,
             fade: true,
             cssEase: 'linear',
-            arrows: true
         });
     </script>
     <script>
